@@ -1,0 +1,179 @@
+/* ---------------------------------
+              Header Section
+------------------------------------*/
+.main-header {
+  width: 100%;
+  min-height: var(--header);
+}
+
+header nav ul li {
+  font-size: 20px;
+  color: var(--headingDarkColor);
+}
+
+/* ---------------------------------
+              Main Content Section
+------------------------------------*/
+.main-content {
+  min-height: calc(100vh - (var(--header) + var(--footer)));
+}
+.jsonLabel {
+  font-size: 20px;
+  color: var(--headingLightColor);
+  opacity: 0.5;
+  margin: 5px 2px;
+}
+.jsonInput {
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  border-radius: 5px;
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #071e54;
+  padding: 20px;
+  -webkit-box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+  -moz-box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+  box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+}
+.jsonInput::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.jsonInput::-webkit-scrollbar-track {
+  background: 0 0;
+  position: absolute;
+}
+
+.jsonInput::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: var(--headingLightColor);
+}
+.actionCard{
+  padding: 20px 20px;
+  box-shadow: var(--shadow1);
+  height: auto;
+  margin-bottom: 10px;
+}
+.actionCard .selectBox{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #071e54;
+    -webkit-box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+    -moz-box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+    box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+}
+
+.css-18pjc51-MuiFormLabel-root-MuiInputLabel-root {
+    top: -7px!important;
+}
+.actionBtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: var(--buttonbg);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #cecece, -3px -3px 3px #fff;
+}
+.outputContainer{
+    width: 100%;
+    padding: 20px 20px;
+    box-shadow: var(--shadow1);
+    min-height: 100px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.outputContainer ul li{
+  width: 100%;
+    height: auto;
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 10px;
+    color: #071e54;
+    -webkit-box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+    -moz-box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+    box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+}
+.outputContainer .keyName{
+  font-size: 20px;
+  color: var(--headingDarkColor);
+  display: flex;
+  cursor: pointer;
+}
+.outputCard{
+    padding: 20px 20px;
+    box-shadow: var(--shadow1);
+    min-height: 50vh;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .outputCard .boxWrapper .box{
+    width:100px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: var(--buttonbg);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #cecece, -3px -3px 3px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .outputCard .boxWrapper  .downLine{
+    width: 2px;
+    height: 50px;
+    margin-left: 50px;
+    background-color: var(--headingDarkColor);
+  }
+  .outputCard .boxWrapper .straightLine{
+    width: 50px;
+    height: 2px;
+    margin-left: 50px;
+    background-color: var(--headingDarkColor);
+  }
+
+  .hoverable {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .hoverable:hover {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+/* ---------------------------------
+              Footer  Section
+------------------------------------*/
+
+.main-footer {
+  width: 100%;
+  min-height: var(--footer);
+  background-color: var(--headingDarkColor);
+}
